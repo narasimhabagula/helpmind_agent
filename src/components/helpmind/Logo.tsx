@@ -1,4 +1,3 @@
-import { Brain } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export function Logo({
@@ -12,9 +11,13 @@ export function Logo({
 }) {
   return (
     <div className={cn("flex items-center gap-3 group", className)}>
-      <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-blue-600 text-white shadow-sm ring-2 ring-blue-100 transition-transform duration-200 group-hover:scale-105">
-        <Brain className="size-5" />
-      </span>
+      <div className="relative size-9 shrink-0 overflow-hidden rounded-xl bg-slate-950 shadow-sm ring-2 ring-blue-500/30 transition-transform duration-200 group-hover:scale-105">
+        <img
+          src="/helpmind-logo.jpg"
+          alt="HelpMind AI Brand Logo"
+          className="size-full object-cover"
+        />
+      </div>
       <span className="min-w-0">
         <span className="flex items-center gap-1.5 font-display text-[15px] leading-tight font-bold text-slate-900">
           HelpMind

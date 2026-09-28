@@ -53,10 +53,14 @@ function Onboarding() {
               <span>Intelligent Memory Support</span>
             </div>
 
-            {/* Solid Electric Blue Brain Icon */}
+            {/* HelpMind AI Brand Logo */}
             <div className="relative">
-              <span className="flex size-14 items-center justify-center rounded-2xl bg-blue-600 text-white shadow-md shadow-blue-500/20 ring-4 ring-blue-50">
-                <Brain className="size-7" />
+              <span className="flex size-16 items-center justify-center rounded-2xl overflow-hidden bg-slate-950 shadow-md shadow-blue-500/25 ring-4 ring-blue-500/20">
+                <img
+                  src="/helpmind-logo.jpg"
+                  alt="HelpMind AI Logo"
+                  className="size-full object-cover"
+                />
               </span>
             </div>
 
